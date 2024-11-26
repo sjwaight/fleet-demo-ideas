@@ -19,5 +19,7 @@ As a baseline we should look to utilize the current AKS preferred sample applica
   - Improve documentation on managing failed update runs (understanding the cause of the failure, remediation steps, re-starting update run/auto-upgrade).
   - Improve documentation on update run states - for example: updates sitting in pending as a result of Kubernetes or node image version not being available yet in an Azure Region.
   - Build a demo that shows how cluster-level update failures cause update run to fail, protecting fleet - [see sample](https://github.com/sjwaight/fleet-mgr-demo?tab=readme-ov-file#test-upgrade-failure-scenario)
+- Monitoring / observability
   - Add documentation on use of Azure Monitor and Azure Resource Graph to build alerts for Update Run results.
-    - Link to (or write) documentation on how to parse objects returned from Graph.   
+    - Link to (or write) documentation on how to parse objects returned from Graph.
+  - Broader coverage over access to logging.   
