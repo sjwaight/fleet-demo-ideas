@@ -11,6 +11,8 @@ As a baseline we should look to utilize the current AKS preferred sample applica
   - placement based on cost (memory/compute) > [see docs](https://learn.microsoft.com/en-us/azure/kubernetes-fleet/intelligent-resource-placement#placement-based-on-memory-and-cpu-core-cost)
   - overrides for different environments by namespace > [see docs](https://learn.microsoft.com/en-us/azure/kubernetes-fleet/resource-override?tabs=azure-cli) | by cluster > [see docs](https://learn.microsoft.com/en-us/azure/kubernetes-fleet/cluster-resource-override?tabs=azure-cli)
   - use of taints and tolerations > [see docs](https://learn.microsoft.com/en-us/azure/kubernetes-fleet/use-taints-tolerations)
+  - Using ClusterResourcePlacement as part of Continuous Deployment.
+  - Documentation on resource types requiring envelopes, along with samples/examples.
 - Updating clusters
   - Update run & Auto-upgrades: demonstrate how to define and reuse different types of strategies (by location/region | by environment | "SDP" style) > [see docs](https://learn.microsoft.com/en-us/azure/kubernetes-fleet/update-create-update-strategy?tabs=azure-portal)
   - Improve documentation on behavior of updates for LTS and Automatic clusters.
